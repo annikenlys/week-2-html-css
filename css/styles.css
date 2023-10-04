@@ -1,0 +1,68 @@
+* {
+
+}
+
+body{
+    background-size: contain;
+    background: url("../assets/images/neom.jpg") no-repeat;
+}
+
+/* This is
+   my first
+   heading*/
+#first-heading {
+    font-family: 'Pixelify Sans', cursive;;
+    color: seagreen;
+    background-color: transparent;
+    font-size: 82px;
+    width: 200px;
+    height: 200px;
+}
+
+#first-heading span{
+    color: saddlebrown;
+}
+
+/*#first-heading-span-word {*/
+/*    color:saddlebrown;*/
+/*}*/
+
+#second-heading {
+    color: #fff000;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: aliceblue;
+    border-top-style: hidden;
+    border-right-color: rgb(128, 128, 128);
+    border-radius: 6px;
+    /*border: 2px solid aliceblue;*/
+}
+
+#third-heading {
+    color: cadetblue;
+}
+
+.generic-heading {
+    font-size: 42px;
+    background-color: darkorange;
+}
+
+p{
+    background-color: darkseagreen;
+    color: darkred;
+    font-weight: bold;
+    width: 500px;
+}
+
+a {
+    font-size: 42px;
+    border-style: solid;
+    border-radius: 8px;
+    text-decoration: none;
+    color: darkseagreen;
+}
+
+a:hover {
+    background-color: powderblue;
+}

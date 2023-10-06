@@ -1,36 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>
-        Day 2 week 2
-    </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 2 day 4</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <a href="#">Click me</a>
-    <h2 id="first-heading" class="generic-heading">
-        Hello <span id="first-heading-span-word">world</span>
-    </h2>
-    <h2 id="second-heading" class="generic-heading">
-        Hello world 2
-    </h2>
-    <h2 id="third-heading" class="generic-heading">
-        Hello world 3
-    </h2>
-    <p>
-        Lorem ipsum dolor sit amet, sonet decore has eu, no vis harum veniam. Mea at dolor doctus mediocritatem. Et
-        vidit mentitum his, cu tollit voluptua sed. Tollit diceret legimus mel at, ad veri definiebas his. Audire
-        aperiam mentitum at eos, clita hendrerit eu vim, odio exerci utamur eum ut.
-    </p>
-    <p>
-        Zril eripuit tibique mel cu. Est nominati honestatis ut. Per id omnis affert semper, sanctus principes mei
-        et. Eum at wisi posse zril, has agam dicunt consequuntur ex.
-    </p>
-</body>
+    <!--THIS SECTION TO TAKE MY USER INFORMATION-->
+    <section>
+        <form action="/thank-you.html">
 
+        <div class="container">
+            <label for="email">Email :</label>
+            <input type="email" name="my-email" id="email"/>
+        </div>
+
+        <div class="container">
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name"/>
+        </div>
+
+        <div class="container">
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name"/>
+        </div>
+
+        <div class="container">
+            <label for="user-password">Password:</label>
+            <input type="password" name="user-password" id="user-password"/>
+        </div>
+
+        <div class="container">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="8" cols="50"></textarea>
+        </div>
+
+        <div class="container">
+            <span>Choose Color:</span>
+            <label>
+                <input type="radio" name="color" value="red" checked/>
+                Red
+            </label>
+        </div>
+
+        <div class="container">
+            <label>
+                <input type="radio" name="color" value="blue"/>
+                blue
+            </label>
+        </div>
+
+        <div class="container">
+            <span>Check Your Hobbies:</span>
+            <label>
+                <input type="checkbox" name="hobbies" value="hiking"/>
+                Hiking
+            </label>
+        </div>
+
+        <div class="container">
+            <label>
+                <input type="checkbox" name="hobbies" value="yoga"/>
+                Yoga
+            </label>
+        </div>
+
+        <div class="container">
+            <label>
+                <input type="checkbox" name="hobbies" value="travelling"/>
+                Travelling
+            </label>
+        </div>
+
+        <div class="container">
+            <label for="car">Choose a Car</label>
+            <select name="car" id="car">
+                <option value="" selected disabled>Select your car</option>
+                <option>Ferrari</option>
+                <option>Fiat</option>
+                <option>BMW</option>
+                <option>Mercedes</option>
+            </select>
+        </div>
+
+        <!--Will only be shown on a phone-->
+        <label for="phone">Enter your phone number</label>
+        <input type="tel" id="phone" name="phone"/>
+
+        <fieldset>
+            <legend>
+                Contact Information:
+            </legend>
+
+            <label for="user-email">User Email:</label>
+            <input type="email" id="user-email" name="user-email"/>
+
+            <label for="user-phone">User Email:</label>
+            <input type="tel" id="user-phone" name="user-phone"/>
+        </fieldset>
+
+        <button type="submit">Subscribe</button>
+        </form>
+    </section>
+</body>
 </html>
